@@ -1,4 +1,4 @@
-# hello-world
+# Ticket management
 
 ## Project setup
 ```
