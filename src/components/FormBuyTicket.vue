@@ -202,11 +202,16 @@ export default {
       border-radius: 16px;
       border: 1px solid;
       cursor: pointer;
+      text-transform: uppercase;
 
       &.active {
         color: #fff;
         background-color: #199101;
         border-color: #199101;
+      }
+
+      &:hover {
+        background-color: #eee;
       }
     }
   }
