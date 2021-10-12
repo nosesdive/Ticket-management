@@ -45,22 +45,22 @@ export default {
     return {
       // This data should fetch by api
       ticketDetails: {
-        a: {
+        A: {
           price: 5000,
           limitPerDay: 10,
           minimumBuying: 1,
         },
-        b: {
+        B: {
           price: 2500,
           limitPerDay: 20,
           minimumBuying: 2,
         },
-        c: {
+        C: {
           price: 1000,
           limitPerDay: 30,
           minimumBuying: 2,
         },
-        d: {
+        D: {
           price: 500,
           limitPerDay: 40,
           minimumBuying: 3,
@@ -160,36 +160,6 @@ export default {
     padding: 16px 24px 24px;
   }
 
-  .form-title {
-    margin-top: 8px;
-    text-align: center;
-  }
-
-  .form-group {
-    margin-bottom: 24px;
-
-    label {
-      display: inline-block;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-
-    .form-control {
-      display: block;
-      height: 32px;
-      padding: 0 18px;
-      font-size: 16px;
-      border-radius: 4px;
-      border: 1px solid #333;
-    }
-
-    &.form-submit {
-      margin-top: 40px;
-      display: flex;
-      justify-content: space-between;
-    }
-  }
-
   .ticket-type {
     display: flex;
 
@@ -202,12 +172,15 @@ export default {
       border-radius: 16px;
       border: 1px solid;
       cursor: pointer;
-      text-transform: uppercase;
 
       &.active {
         color: #fff;
         background-color: #199101;
         border-color: #199101;
+
+        &:hover {
+          background-color: #199101;
+        }
       }
 
       &:hover {
@@ -218,12 +191,5 @@ export default {
 
   .minumum-buying-helper {
     color: #999;
-  }
-
-  .invalid-message {
-    display: block;
-    font-size: 14px;
-    color: var(--color-error);
-    margin-top: 4px;
   }
 </style>

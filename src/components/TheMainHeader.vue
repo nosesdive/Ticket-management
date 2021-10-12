@@ -3,7 +3,7 @@
     <nav class="navigation">
       <ol class="navigation-list">
         <li class="navigation-list-item"><router-link :to="{ name: 'Home'}">Home</router-link></li>
-        <li class="navigation-list-item"><router-link :to="{ name: 'Report'}">Report</router-link></li>
+        <li class="navigation-list-item"><router-link :to="{ name: 'Report'}">Daily Report</router-link></li>
       </ol>
     </nav>
   </header>
